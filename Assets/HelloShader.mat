@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: 01a9d6f1697da3f4d987e1d8eed000dd, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5701e0105b03b9a44a82c3f8c4559318, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -63,6 +63,26 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _myBump:
+        m_Texture: {fileID: 2800000, guid: aa14042987056944ab3177c87e7cd225, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myCube:
+        m_Texture: {fileID: 8900000, guid: 8d921b1c870e08445a4548d617af6b74, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myDiffuse:
+        m_Texture: {fileID: 2800000, guid: e5f1785f0296f7648b695589dcf635d7, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _myTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myTexture:
+        m_Texture: {fileID: 2800000, guid: e5f1785f0296f7648b695589dcf635d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
@@ -84,13 +104,19 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _myBright: 2.26
+    - _myBumpScale: 1.221
+    - _myFloat: 0.5
+    - _myRange: 0.54
+    - _mySlider: 8.57
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlowColor: {r: 0.21383637, g: 0, b: 0, a: 1}
-    - _myColor: {r: 0.76729554, g: 0.76729554, b: 0.76729554, a: 1}
+    - _myColor: {r: 0.6746602, g: 1, b: 0, a: 1}
     - _myColour: {r: 0.42469072, g: 0, b: 1, a: 1}
     - _myEmission: {r: 1, g: 1, b: 1, a: 1}
     - _myNormal: {r: 0.4744212, g: 0.93710685, b: 0, a: 1}
+    - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
